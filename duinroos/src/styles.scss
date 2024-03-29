@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+$color-grey-light: #E3EAECCC;
+$color-grey-dark: #E3EAECCC;
+$color-white: #fff;
+$color-black: #000;
+$color-hotpink: #FF69B4FF;
+$color-deeppink: #FF1493FF;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+//setting root font size to 10px. Rem will be related to the root font size. 1 rem = 10px
+html {
+  font-size: 62.5% //; 10/16
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  //font-size: 16px;
+  line-height: 1.7;
+  color: $color-black;
+  padding: 3rem;
+  box-sizing: border-box;
+}
+

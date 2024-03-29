@@ -1,1 +1,32 @@
-<router-outlet></router-outlet>
+<div class="navigation">
+  <input id="navi-toggle" type="checkbox" class="navigation__checkbox">
+  <label for="navi-toggle" class="navigation__button">
+    <span class="navigation__icon">&nbsp;</span>
+  </label>
+  <div class="navigation__background">&nbsp;</div>
+  <nav class="navigation__nav">
+    <ul class="navigation__list">
+      <li class="navigation__item"><a href="#" class="navigation__link">Welkom</a></li>
+      <li class="navigation__item"><a href="#" class="navigation__link">Foto's</a></li>
+      <li class="navigation__item"><a href="#" class="navigation__link">Beschrijving</a></li>
+      <li class="navigation__item"><a href="#" class="navigation__link">Omgeving</a></li>
+      <li class="navigation__item"><a href="#" class="navigation__link">Klachten</a></li>
+    </ul>
+  </nav>
+</div>
+
+<header class="header">
+  <div class="header__logo-box">
+    <img src="assets/images/duinroos.png" alt="Logo" class="logo" width="30" height="30"/>
+  </div>
+
+  <div class="header__text-box">
+    <h1 class="heading-primary">
+      <span class="heading-primary--main">Duinroos</span>
+      <span class="heading-primary--sub">Appartement aan zee</span>
+    </h1>
+  </div>
+</header>
+<section>
+  <router-outlet></router-outlet>
+</section>
